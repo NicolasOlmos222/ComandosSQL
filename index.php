@@ -28,5 +28,16 @@
         ID: <input type="text" name="id"><br>
         <input type="submit" value="Eliminar">
     </form>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Localidad</th>
+        </tr>
+        <?php include 'mostrar.php'; ?></php>
+        
+    </table>
 </body>
 </html>
